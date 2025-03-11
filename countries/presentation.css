@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+
+* {
+    font-family: "Charm", cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    color: #224;
+    background: url(../IMG/countries.png)center / cover no-repeat fixed;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    background-color: #eed2d2;
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: 800;
+    color: #860852;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.navbar {
+    color: #860852;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    padding-left: 30px;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+p:not(:last-child) {
+    margin-bottom: 1.5em;
+}
+
+.site-container {
+    display: grid;
+    place-items: center;
+
+    min-height: 100vh;
+    padding: 1.5em;
+}
+
+
+.card {
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(15px);
+    align-items: center;
+    padding: 10px;
+    color: #3d0526;
+    font-size: medium;
+}
+
+
+.home-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #860852;
+    color: #eed2d2;
+    font-size: 0.9em;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 0.9375em 2.1875em;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.home-btn:hover {
+    background-color: #b36291;
+    transform: scale(1.1);
+}
+
+.footer {
+    background-color: rgb(14, 1, 44);
+    text-align: center;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    color: #eed2d2;
+}
+
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span {
+    color: #b36291;
+}
